@@ -12,7 +12,7 @@ void display()
 int main(int argc, char ** argv)
 {
   glutInit(&argc, argv);
-  std::cout << "hello world!!!" << std::endl;
+  std::cout << "hello world!!! I hope this works" << std::endl;
   glutInitWindowPosition(300, 100);
   glutInitWindowSize(400, 400);
   glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);

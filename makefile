@@ -10,9 +10,7 @@ CXX 			= g++
 CXXFLAGS	= -g -Wall
 LINK			= g++
 LINKFLAGS	= -lGL -lGLU -lglut -lGLEW
-OBJS			= ../ciss380/a/mygllib/config.o \
-						../ciss380/a/mygllib/View.o \
-						main.Object
+OBJS			= main.o
 EXE				= main.exe
 
 #==========================================================
@@ -38,3 +36,6 @@ run:
 	./$(EXE)
 r:
 	./$(EXE)
+
+push:
+	git add .
